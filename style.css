@@ -15,7 +15,7 @@ header {
     background-color: green;
     grid-column: 2 / 3;
     display: grid;
-    grid-template: 1fr 2fr / 2fr 1fr;
+    grid-template: 1fr 1fr / 2fr 1fr;
 }
 
 .searchbar {
@@ -41,5 +41,31 @@ header {
 }
 
 .main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 8fr;
     background-color: yellow;
+}
+
+.main-content h1 {
+    margin: 0;
+}
+
+.project, .announcement {
+    background-color: aliceblue;
+}
+
+.project-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 24px;
+}
+
+.announcements-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+    padding: 24px;
 }
