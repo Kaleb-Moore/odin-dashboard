@@ -19,6 +19,7 @@ header {
 .sidebar {
     grid-row: 1 /3;
     background-color: blue;
+    padding-left: 24px;
 }
 
 .main-content {
