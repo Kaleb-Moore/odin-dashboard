@@ -12,26 +12,82 @@ body {
 
 
 header {
-    background-color: green;
     grid-column: 2 / 3;
     display: grid;
     grid-template: 1fr 1fr / 2fr 1fr;
 }
 
+.search {
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+}
+
+.search-img {
+    height: 35px;
+    width: auto;
+    padding: 0px 16px;
+}
+
 .searchbar {
     grid-column: 1/2;
-    height: 24px;
-    width: 80%;
+    height: 20px;
+    width: 70%;
     border-radius: 30px;
+    border: none;
+    background-color: #e2e8f0;
 }
 
 .user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-column: 2/3;
 }
 
+.bell {
+    height: 35px;
+    width: auto;
+}
+
+.profile-pic {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+    padding: 0px 32px;
+}
+
+
 .greeting {
+    display: flex;
+    align-items: center;
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+    padding: 0px 16px;
+}
+
+.greeting-text-top, .greeting-text-bottom {
+    padding: 0;
+    margin: 0;
+}
+
+.greeting-text-bottom {
+    padding-top: 8px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 8px 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: #1992d4;
+    color: white;
+    margin: 0px 8px;
 }
 
 .sidebar {
