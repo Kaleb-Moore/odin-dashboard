@@ -36,8 +36,33 @@ header {
 
 .sidebar {
     grid-row: 1 /3;
-    background-color: blue;
+    background-color: #1992d4;
     padding-left: 24px;
+}
+
+.side-img-main {
+    height: 45px;
+    width: auto;
+    padding-right: 8px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.side-img {
+    height: 35px;
+    width: auto;
+    padding-right: 8px;
+}
+
+.side-title {
+    color: White;
+}
+
+.menu-item:nth-child(2), .menu-item:nth-child(8) {
+    padding-top: 45px;
 }
 
 .main-content {
